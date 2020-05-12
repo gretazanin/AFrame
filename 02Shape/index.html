@@ -10,12 +10,49 @@
   <body>
     <a-scene background="color: #333333">
       <a-box id="myBox"
-        width="3"
-        height="2"
-        depth="1"
-        color="#BBAA33" 
-        shadow>
+        width="4"
+        height="4"
+        depth="2"
+        color="#707070" 
+        shadow
+        
+         position="10 1 -15"
+         rotation="-6 8 3"
+         scale="0.5 2 4.5">
       </a-box>
-    </a-scene>
+   
+  
+  <a-circle src="#platform" radius="50" rotation="-90 0 0"
+         color="grey" 
+  ></a-circle>
+  
+  
+  <a-cone 
+  radius-bottom="2" radius-top="0.5"
+      color="yellow"
+        position="1 1 -11"
+         rotation="-6 8 3"
+         scale="0.5 2 4.5"
+  ></a-cone>
+  
+  <a-cylinder color="orange" theta-start="50" theta-length="380" side="double"
+               position="-5 2 -10"
+  ></a-cylinder>
+  
+    <a-cylinder color="orange" theta-start="50" theta-length="380" side="double"
+               position="-5 0.5 -10"
+  ></a-cylinder>
+  
+      <a-cylinder color="orange" theta-start="50" theta-length="380" side="double"
+               position="-5 3.5 -10"
+  ></a-cylinder>
+  
+  <a-torus-knot color="red" arc="180" p="2" q="7" radius="5" radius-tubular="0.1"
+      radius="2"
+  
+  ></a-torus-knot>
+  
+   </a-scene>
+
   </body>
 </html>
